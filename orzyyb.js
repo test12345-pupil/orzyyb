@@ -18,9 +18,9 @@ document.getElementById("mainarea").innerHTML="\
 <span style=\"font-size: 128px; color:rgb(234,67,53)\">b</span>\
 </p>\
 <p align=\"center\">\
-<img src=\"/orzyyb/orz.jpg\" style=\"margin:30px;transform:scaleX(-1) scaleY(1);position:relative;top:60px\">\
-<img src=\"/orzyyb/yyb3.jpg\" style=\"border-radius:30px;box-shadow:0px 0px 100px #ff0000;position:relative;top:30px width:400px;height:400px;\">\
-<img src=\"/orzyyb/orz.jpg\" style=\"margin:30px;position:relative;top:60px\"></p><p align=\"center\" style=\"margin: 30px\">\
+<img src=\"https://xzz-233.github.io/orzyyb/orz.jpg\" style=\"margin:30px;transform:scaleX(-1) scaleY(1);position:relative;top:60px\">\
+<img src=\"https://xzz-233.github.io/orzyyb/yyb3.jpg\" style=\"border-radius:30px;box-shadow:0px 0px 100px #ff0000;position:relative;top:30px width:400px;height:400px;\">\
+<img src=\"https://xzz-233.github.io/orzyyb/orz.jpg\" style=\"margin:30px;position:relative;top:60px\"></p><p align=\"center\" style=\"margin: 30px\">\
 <span style=\"font-size: 48px;color: #FF0000\">YYB是我们的红太阳，没有他我们会死！</span>\
 </p>\
 <div id=\"orz\" align=\"center\"><p align=\"center\">\
@@ -37,7 +37,7 @@ document.getElementById("orz").innerHTML="\
 <span style=\"font-size: 40px; color: #FF0000\">\
 震惊！yyb被砍死了！\
 <br>\
-<img src=\"/orzyyb/witcher5.png\" style=\"width:100%;height:auto;\">\
+<img src=\"https://xzz-233.github.io/orzyyb/witcher5.png\" style=\"width:100%;height:auto;\">\
 ";
 document.title="震惊！";
     return;
@@ -51,10 +51,10 @@ yyb又变强了！\
 </span>\
 </p>\
 <p style=\"margin:10px\">\
-<img src=\"/orzyyb/yyb4.jpg\" style=\"width:500px;height:650px;\">\
+<img src=\"https://xzz-233.github.io/orzyyb/yyb4.jpg\" style=\"width:500px;height:650px;\">\
 </p>\
 </span>\
-<img border=\"0\" src=\"/orzyyb/yybakioi.gif\">\
+<img border=\"0\" src=\"https://xzz-233.github.io/orzyyb/yybakioi.gif\">\
 <br>\
 <button style=\"font-size: 24px\" onclick=\"ORZINF()\" id=\"ORZORZORZ\">继续膜拜1次</button>\
 ";
