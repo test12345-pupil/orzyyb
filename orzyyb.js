@@ -1,4 +1,4 @@
-var YYBBEIKANLE=0.02;
+var YYBBEIKANLE=0.0;
 function orzyyb(){
 /*
 var nowDate = new Date();
