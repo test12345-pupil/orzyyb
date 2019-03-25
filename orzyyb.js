@@ -35,7 +35,7 @@ yyb又变强了！\
 <!--img border=\"0\" src=\"https://xzz-233.github.io/orzyyb/yybakioi.gif\"-->\
 <br>\
 <button style=\"font-size: 24px\" onclick=\"ORZINF()\" id=\"orzbutton\">继续膜拜1次</button>\
-<div style=\"font-size: 50px;background:white;width:auto\" id=\"times\"></div>\
+<div style=\"font-size: 50px;background:rgba(255,255,255,0.7);width:auto\" id=\"times\"></div>\
 <div style=\"font-size: 40px;color:red\" id=\"yybsays\"></div>\
 <div style=\"font-size: 20px;height:30px\" id=\"yybsays2\"></div>\
 ";
