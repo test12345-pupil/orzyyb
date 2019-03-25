@@ -1,6 +1,6 @@
 
-function orzyyb(){
-document.getElementById("mainarea").innerHTML="\
+function orzyyb() {
+    document.getElementById("mainarea").innerHTML="\
 <p align=\"center\">\
 <span style=\"font-size: 128px; color:rgb(66,133,244)\">O</span>\
 <span style=\"font-size: 128px; color:rgb(234,67,53)\">r</span>\
@@ -20,8 +20,8 @@ document.getElementById("mainarea").innerHTML="\
 </div>\
 ";
 }
-function orzorz(){
-document.getElementById("orz").innerHTML="\
+function orzorz() {
+    document.getElementById("orz").innerHTML="\
 <p style=\"margin:10px\">\
 <span style=\"font-size: 40px; color: #FF0000\">\
 膜拜成功！\
@@ -39,31 +39,32 @@ yyb又变强了！\
 <div style=\"font-size: 40px;color:red\" id=\"yybsays\"></div>\
 <div style=\"font-size: 20px;height:30px\" id=\"yybsays2\"></div>\
 ";
-document.title="orz YYB!";
+    document.title="orz YYB!";
 }
 var cnt=0,delta=1,says2_time=0;
 var sayslist=new Array("你个菜逼我今天AK了","NOI怎么这么水啊，这不是用来随手AK的吗","ZSY你个菜逼虽然我要和你在一起但是你还是好菜啊","你怎么还在乱膜啊？？？你快吸掉我RP的0.000000001‰了","今天考试又是三个傻逼题，我不仅AK了还把2048玩到了2^1000000","怎么我出的题全场爆零啊，我以为会有人负分的啊","你们还是naive，我怎么可能不AK？","今天题真的水，你们不AK的都退役吧");
-function ORZINF(){
-	cnt+=delta;
-	document.getElementById("times").innerHTML='OrzYYB!*'+cnt;
-	//document.getElementById("yybsays").innerHTML='YYB：'+sayslist[Math.floor(Math.random()*sayslist.length)];
-	--says2_time;if(says2_time==0)document.getElementById("yybsays2").innerHTML="";
-	if(cnt==1)document.getElementById("yybsays2").innerHTML='YYB：诶又有一个来膜拜我的，来吧来吧继续膜',says2_time=5;
-	if(cnt==2)document.getElementById("yybsays2").innerHTML='YYB：你们还是naive，我又AK了',says2_time=5;
-	if(cnt==10)document.getElementById("yybsays2").innerHTML='YYB：虽然我是大佬，但是你这样一直膜我是会掉RP的',says2_time=5;
-	if(cnt==20)document.getElementById("yybsays2").innerHTML='YYB：MDZZ你怎么还在膜信不信我把你从5楼扔下去',says2_time=5;
-	if(cnt==50)document.getElementById("yybsays2").innerHTML='YYB：没错我就是这么强，让你好好膜',says2_time=5;
-	if(cnt==50)delta=5,document.getElementById("orzbutton").innerHTML="继续膜拜"+delta+"次";
-	if(cnt==1000)document.getElementById("yybsays2").innerHTML='YYB：你真棒，我感受到了我又变强了，让你一次多膜一点',says2_time=5;
-	if(cnt>=1000){
-		delta=Math.floor(Math.random()*100+5);
-		document.getElementById("orzbutton").innerHTML="继续膜拜"+delta+"次";
-	}
-	if(cnt>=10000){
-		document.getElementById("mainarea").innerHTML="<h1 style=\"color:red\" align=\"center\">YYB:你这个辣鸡，怎么天天膜我？<!--br>我还要去THU吊打集训队，还要去MIT秒题<br-->（YYB说着走起了路准备离开）</h1><br><br><!--div id=\"walkyyb\" align=\"center\"><img src=\"walkyyb.gif\"/></div--><br><button style=\"font-size: 24px\" onclick=\"last_orz()\" id=\"lastorz\">继续膜拜...</button>";
-	}
+function ORZINF() {
+    cnt+=delta;
+    document.getElementById("times").innerHTML='OrzYYB!*'+cnt;
+    //document.getElementById("yybsays").innerHTML='YYB：'+sayslist[Math.floor(Math.random()*sayslist.length)];
+    --says2_time;
+    if(says2_time==0)document.getElementById("yybsays2").innerHTML="";
+    if(cnt==1)document.getElementById("yybsays2").innerHTML='YYB：诶又有一个来膜拜我的，来吧来吧继续膜',says2_time=5;
+    if(cnt==2)document.getElementById("yybsays2").innerHTML='YYB：你们还是naive，我又AK了',says2_time=5;
+    if(cnt==10)document.getElementById("yybsays2").innerHTML='YYB：虽然我是大佬，但是你这样一直膜我是会掉RP的',says2_time=5;
+    if(cnt==20)document.getElementById("yybsays2").innerHTML='YYB：MDZZ你怎么还在膜信不信我把你从5楼扔下去',says2_time=5;
+    if(cnt==50)document.getElementById("yybsays2").innerHTML='YYB：没错我就是这么强，让你好好膜',says2_time=5;
+    if(cnt==50)delta=5,document.getElementById("orzbutton").innerHTML="继续膜拜"+delta+"次";
+    if(cnt==1000)document.getElementById("yybsays2").innerHTML='YYB：你真棒，我感受到了我又变强了，让你一次多膜一点',says2_time=5;
+    if(cnt>=1000) {
+        delta=Math.floor(Math.random()*100+5);
+        document.getElementById("orzbutton").innerHTML="继续膜拜"+delta+"次";
+    }
+    if(cnt>=10000) {
+        document.getElementById("mainarea").innerHTML="<h1 style=\"color:red\" align=\"center\">YYB:你这个辣鸡，怎么天天膜我？<!--br>我还要去THU吊打集训队，还要去MIT秒题<br-->（YYB说着走起了路准备离开）</h1><br><br><!--div id=\"walkyyb\" align=\"center\"><img src=\"walkyyb.gif\"/></div--><br><button style=\"font-size: 24px\" onclick=\"last_orz()\" id=\"lastorz\">继续膜拜...</button>";
+    }
 }
 
-function last_orz(){
-document.getElementById("mainarea").innerHTML="<h1 style=\"color:red\">YYB:你怎么回事小老弟？？？<br>你被YYB秒了<br><br>被秒乃蒟蒻常事<br>请蒟蒻重新来过！</h1>";
+function last_orz() {
+    document.getElementById("mainarea").innerHTML="<h1 style=\"color:red\">YYB:你怎么回事小老弟？？？<br>你被YYB秒了<br><br>被秒乃蒟蒻常事<br>请蒟蒻重新来过！</h1>";
 }
