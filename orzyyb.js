@@ -53,7 +53,7 @@ function ORZINF() {
         document.getElementById("orzbutton").innerHTML="继续膜拜"+orzDelta+"次";
     }
     if(orzCount>=10000) {
-        document.getElementById("mainarea").innerHTML="<h1 style=\"color:red\" align=\"center\">YYB:你这个辣鸡，怎么天天膜我？<!--br>我还要去THU吊打集训队，还要去MIT秒题<br-->（YYB说着走起了路准备离开）</h1><br><br><!--div id=\"walkyyb\" align=\"center\"><img src=\"walkyyb.gif\"/></div--><br><button style=\"font-size: 24px\" onclick=\"last_orz()\" id=\"lastorz\">继续膜拜...</button>";
+        document.getElementById("mainarea").innerHTML="<h1 style=\"color:red\" align=\"center\">YYB:你这个辣鸡，怎么天天膜我？<br>我还要去THU吊打集训队，还要去MIT秒题<br>（YYB说着走起了路准备离开）</h1><br><br><div id=\"walkyyb\" align=\"center\"><img src=\"walkyyb.gif\"/></div><br><button style=\"font-size: 24px\" onclick=\"last_orz()\" id=\"lastorz\">继续膜拜...</button>";
     }
 }
 
